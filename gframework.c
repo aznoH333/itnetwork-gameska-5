@@ -189,9 +189,10 @@ void initFramework(){
 // dispose
 //------------------------------------------------------
 void disposeFramework(){
-	CloseWindow();
 	unloadSpriteSheet(loadedSheet);
 	UnloadRenderTexture(renderTexture);
+	CloseWindow();
+
 }
 
 
